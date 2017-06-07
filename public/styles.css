@@ -1,12 +1,35 @@
+body {
+  font-family: "Harry P";
+  background-color: #67271d;
+}
+
+a {
+  color: #17840d;
+}
+
+.grid {
+  color: 
+  display: inline-block;
+}
+
+.cell {
+  font-size: 42px;
+}
+
+.enrol {
+  font-size: 52px;
+  margin: 0px 0px 5px 0px;
+  text-align: center;
+}
+
 .home {
   height: 100vh;
   background-image: url(http://www.artsfon.com/pic/201410/2560x1600/artsfon.com-17734.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
-  font-size: 40px;
+  font-size: 55px;
   color: antiquewhite;
-  font-style: garamond, sans-serif;
 }
 
 .hogwarts {
@@ -14,18 +37,18 @@
   margin: 0px;
 }
 
-nav {
-  text-decoration: none;
-  margin: 0px;
+.link {
+  font-size: 30px;
 }
 
 .students {
-  background-color: #67271d;
+  
   color: antiquewhite;
   font-size: 22px;
 }
 
 .enrolled {
-  
+  text-align: center;
+  text-decoration: underline;
 }
 

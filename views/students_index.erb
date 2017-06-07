@@ -4,16 +4,19 @@
 <div class="enrolled">
 <h1>Student enrolled list</h1>
 </div>
-<p><a href="/student/new">Enrol today!</a></p>
-
-<% @students.each do |student| %>
-<p>First Name: <%= student.first_name%></p>
-<p>Second Name: <%= student.second_name%></p>
-<p>House: <%= student.house.name %></p>
-<p>Age: <%= student.age%></p>
-<hr/>
-
-<%end%>
+<p class="enrol"><a href="/student/new">Enrol today!</a></p>
 </div>
+
+<div class="grid">
+<div class="grid-row"></div>
+<% @students.each do |student| %>
+<div class="cell">First Name: <%= student.first_name%></div>
+<div class="cell">Second Name: <%= student.second_name%></div>
+<div class="cell">House: <%= student.house.name %></div>
+<div class="cell">Age: <%= student.age%></div>
+</div>
+<hr/>
+<%end%>
+
 
 </body>
