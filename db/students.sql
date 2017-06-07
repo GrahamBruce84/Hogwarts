@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS students;
+DROP TABLE IF EXISTS house;
+
+
+CREATE TABLE house (
+id SERIAL8 PRIMARY KEY,
+name VARCHAR(255),
+logo VARCHAR(512)
+);
+
+CREATE TABLE students (
+id SERIAL8 PRIMARY KEY,
+first_name VARCHAR(255),
+second_name VARCHAR(255),
+house_id INT8 REFERENCES house(id),
+age INT8
+);

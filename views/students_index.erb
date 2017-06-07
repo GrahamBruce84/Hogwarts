@@ -1,0 +1,19 @@
+<body>
+
+<div class="students">
+<div class="enrolled">
+<h1>Student enrolled list</h1>
+</div>
+<p><a href="/student/new">Enrol today!</a></p>
+
+<% @students.each do |student| %>
+<p>First Name: <%= student.first_name%></p>
+<p>Second Name: <%= student.second_name%></p>
+<p>House: <%= student.house.name %></p>
+<p>Age: <%= student.age%></p>
+<hr/>
+
+<%end%>
+</div>
+
+</body>

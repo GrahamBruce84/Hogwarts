@@ -1,0 +1,31 @@
+.home {
+  height: 100vh;
+  background-image: url(http://www.artsfon.com/pic/201410/2560x1600/artsfon.com-17734.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  font-size: 40px;
+  color: antiquewhite;
+  font-style: garamond, sans-serif;
+}
+
+.hogwarts {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.students {
+  background-color: #67271d;
+  color: antiquewhite;
+  font-size: 22px;
+}
+
+.enrolled {
+  
+}
+
