@@ -1,4 +1,3 @@
-<body>
 <form action="/students" method="post">
   
   <label for="first_name">First Name</label>
@@ -9,7 +8,7 @@
   <label for="house_id">Select Preferred House</label>
   <select name="house_id" id="house_id">
   <% for house in @houses %>
-  <option value="house"><%= house.name %></option>
+  <option value="<%= house.id %>"><%= house.name %></option>
   <%end%>
     <!-- <option value="1">Gryffindor</option>
     <option value="2">Slytherin</option>
@@ -22,4 +21,3 @@
 
   <input type="submit" value="Enrol Now!">
 </form>
-</body>

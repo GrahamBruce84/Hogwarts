@@ -38,8 +38,4 @@ class Student
     return result.map {|student| Student.new(student)}
   end
 
-
-
-
-
 end

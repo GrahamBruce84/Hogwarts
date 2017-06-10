@@ -69,16 +69,3 @@ student5.save()
 binding.pry
 nil
 
-
-
-
-
-
-
-
-
-
-
-
-
-
